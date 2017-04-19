@@ -13,7 +13,7 @@
  *
  */
 
-public class InsertionSolution {
+public class Insertion {
     public static String toFullBinaryString(int num) {
         String s = "";
         for (int i = 0; i < 32; i++) {

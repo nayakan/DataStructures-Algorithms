@@ -1,3 +1,18 @@
+ * 
+ * You are given two 32-bit numbers, N and M, and two bit positions, i and j. Write a method to set all bits 
+ * between i and j in N equal to M 
+ * 
+ * EXAMPLE:
+ * Input: N = 10000000000, M = 10101, i = 2, j = 6
+ * Output: N = 10001010100
+ * 
+ * Solution:
+ * 1. clear the bits j through i in N
+ * 2. shift M so that it lines up with bits j through i
+ * 3. merge M and N
+ *
+ */
+
 public class InsertionSolution {
     public static String toFullBinaryString(int num) {
         String s = "";

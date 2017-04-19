@@ -3,12 +3,7 @@
  * print the binary representation. If the number cannot be accuratelyt 
  * represented in binary with atmost 32 characters, print "ERROR".
  */
-package bitmanipulation;
 
-/**
- *
- * @author Akshatha
- */
 public class FractionToBinary {
     public static String printBinary(double num) {
         if(num >= 1 || num <= 0)

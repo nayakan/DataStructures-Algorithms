@@ -1,11 +1,11 @@
 /*
  * You have an integer and you can flip exactly one bit from a 0 to a 1.
- * Write code to find the length of the longest sequence of 1s you could 
+ * Write method to find the length of the longest sequence of 1s you could 
  * create.
  */
 
-public class FlipBit {
-    public static int flipBit(int num) {
+public class Solution {
+    public int flipBit(int num) {
         if(~num == 0)
             return Integer.BYTES * 8;
         
@@ -25,11 +25,5 @@ public class FlipBit {
             num >>>= 1;
         }
         return maxLen;
-    }
-    
-    public static void main(String[] args) {
-        int input = 1775;
-        int maxLen = flipBit(1743);
-        System.out.println(maxLen);
     }
 }

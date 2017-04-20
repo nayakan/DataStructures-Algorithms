@@ -1,10 +1,11 @@
 /*
  * Given a real number between 0 and 1 that is passed in as a double,
- * print the binary representation. If the number cannot be accuratelyt 
- * represented in binary with atmost 32 characters, print "ERROR".
+ * write a method to print the binary representation. If the number 
+ * cannot be accurately represented in binary with atmost 32 characters, 
+ * print "ERROR".
  */
 
-public class Solution {
+public class FractionToBinary {
     public String printBinary(double num) {
         if(num >= 1 || num <= 0)
             return "ERROR";

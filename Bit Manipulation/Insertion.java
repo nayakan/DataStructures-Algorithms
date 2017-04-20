@@ -13,18 +13,7 @@
  *
  */
 
-public class Solution {
-    public String toFullBinaryString(int num) {
-        String s = "";
-        for (int i = 0; i < 32; i++) {
-            Integer lsb = new Integer(num & 1);
-            s = lsb.toString() + s;
-            num = num >> 1;
-        }
-        return s;
-    }
-    
-    // Method to insert m into n from bit positions i to j
+public class Insertion {
     public int updateBits(int n, int m, int i, int j) {
         if(j < i || i > 32)
             return 0;

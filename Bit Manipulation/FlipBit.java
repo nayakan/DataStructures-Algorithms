@@ -4,7 +4,7 @@
  * create.
  */
 
-public class Solution {
+public class FlipBit {
     public int flipBit(int num) {
         if(~num == 0)
             return Integer.BYTES * 8;

@@ -4,8 +4,8 @@
  * represented in binary with atmost 32 characters, print "ERROR".
  */
 
-public class FractionToBinary {
-    public static String printBinary(double num) {
+public class Solution {
+    public String printBinary(double num) {
         if(num >= 1 || num <= 0)
             return "ERROR";
         
@@ -28,10 +28,5 @@ public class FractionToBinary {
             }
         }
         return binary.toString();
-    }
-    
-    public static void main(String[] args) {
-        String binaryString = printBinary(0.625);
-        System.out.println(binaryString);
     }
 }

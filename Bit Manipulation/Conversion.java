@@ -7,7 +7,7 @@
  */
 
 public class Conversion {
-    public static int bitSwap(int a, int b) {
+    public int bitSwap(int a, int b) {
         int count = 0;
         for(int c = a ^ b; c != 0; c >>= 1) {
             count += c & 1;

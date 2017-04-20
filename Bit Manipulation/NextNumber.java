@@ -4,7 +4,7 @@
  * binary representation.
  */
  
-public class Solution {
+public class NextNumber {
     public static int getNext(int num) {
         int c = num;
         int c0 = 0;

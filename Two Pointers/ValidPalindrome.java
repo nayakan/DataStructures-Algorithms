@@ -16,10 +16,10 @@ public class ValidPalindrome {
             char c2 = s.charAt(end);
             if(!Character.isLetterOrDigit(c1)) {
                 start++;
-            } else if(Character.isLetterOrDigit(c2)) {
+            } else if(!Character.isLetterOrDigit(c2)) {
                 end--;
             } else {
-                if(c1 != c2) {
+                if(Character.toLowerCase(c1) != Character.toLowerCase(c2)) {
                     return false;
                 }
                 start++;

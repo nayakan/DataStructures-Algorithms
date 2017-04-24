@@ -45,10 +45,4 @@ public class LongestWord {
         }
         return j == string.length();
     }
-    
-    public static void main(String[] args) {
-        String s = "abpcplea";
-        List<String> d = new ArrayList<>(Arrays.asList("monkey", "ale","plea", "apple"));
-        //System.out.println(findLongestWord(s, d));
-    }
 }

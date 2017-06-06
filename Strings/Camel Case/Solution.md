@@ -7,5 +7,7 @@
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.next();
+        String[] arr = s.split("[A-Z]");
+        System.out.println(arr.length);
     }
   }
